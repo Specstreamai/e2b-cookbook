@@ -1,0 +1,20 @@
+{
+  "name": "specstream-web-search",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Run a live web search and page extraction agent using SpecStream inside an E2B sandbox",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/*.test.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "e2b": "^2.62.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

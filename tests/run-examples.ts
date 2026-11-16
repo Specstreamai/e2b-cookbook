@@ -166,6 +166,9 @@ const scripts: {
 //   anchor-cloud-browser-js (ANCHOR_API_KEY — getApiKeys already forwards it.
 //     Once the secret exists, move this into the scripts list with a 600_000
 //     timeout: npm install plus the browser task does not fit 150s)
+//   specstream-web-search-js, specstream-web-search-python (SPECSTREAM_API_KEY:
+//     getApiKeys already forwards it, and each example creates its own E2B
+//     sandbox from the host)
 // Needs a Hatchet Cloud tenant with Sandboxes enabled and an E2B provider connected
 // (HATCHET_CLIENT_TOKEN), which this repo has no secret for, and the sandbox is created
 // by Hatchet's operator rather than from inside the runner sandbox:
